@@ -1,6 +1,6 @@
 ## uva-computer-vision-lab.github.io
 
-This repo holds the website for the computer vision lab at University of Virginia.
+This repo holds the website for the computer vision lab at University of Virginia. Here is a [preview](uva-computer-vision-lab.github.io)
 
 ## TODO
 
@@ -15,6 +15,7 @@ This repo holds the website for the computer vision lab at University of Virgini
 * update teaching and publications across time.
 * (Xuweiyi) modify this template so it allow json as input to save us time. Due by August 15th.
 * update the [compute guidance](https://uva-computer-vision-lab.github.io/compute-guide/)
+* host the website on the cs department server
 
 ## Acknowledgement
 
