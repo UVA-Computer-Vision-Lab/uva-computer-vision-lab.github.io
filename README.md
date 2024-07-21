@@ -6,7 +6,7 @@ This repo holds the website for the computer vision lab at University of Virgini
 
 * fix People page.
     - Can you guys please check selfie, short bio and research interests?
-    -  Phone number, email, address, etc. Please directly send it to me or modify the website. I can help to update this section.
+    - Phone number, email, address, etc. Please directly send it to me or modify the website. I can help to update this section.
 * fix Home and Research
     - Zezhou shall determine the lab's focus and the front page. :slightly_smiling_face: lol
     - Xuweiyi will fix the Contact with a google sheet to route applicants and keep their name and info in google sheets.
