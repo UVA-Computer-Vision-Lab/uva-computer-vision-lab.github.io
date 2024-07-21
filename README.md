@@ -13,6 +13,7 @@ This repo holds the website for the computer vision lab at University of Virgini
 * add an icon and an address for the lab. 
 * update teaching and publications across time.
 * (Xuweiyi) modify this template so it allow json as input to save us time. Due by August 15th.
+* update the [compute guidance](https://uva-computer-vision-lab.github.io/compute-guide/)
 
 ## Acknowledgement
 
