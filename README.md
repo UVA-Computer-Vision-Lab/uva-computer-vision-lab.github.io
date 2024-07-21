@@ -1,22 +1,19 @@
 ## uva-computer-vision-lab.github.io
 
-This is a research lab website template that can be used by university students / professors to create a simple website for showing and displaying their labs / research. 
+This repo holds the website for the computer vision lab at University of Virginia.
 
-I built this for my brother years ago, and you can find his current site here: [University of Illinois Energy Transport Research Lab](http://etrl.mechanical.illinois.edu/)
+## TODO
 
-You can find a live view of the template using the link below:
+* fix People page.
+    - Can you guys please check selfie, short bio and research interests?
+    -  Phone number, email, address, etc. Please directly send it to me or modify the website. I can help to update this section.
+* fix Home and Research
+    - Zezhou shall determine the lab's focus and the front page. :slightly_smiling_face: lol
+    - Xuweiyi will fix the Contact with a google sheet to route applicants and keep their name and info in google sheets.
+* add an icon and an address for the lab. 
+* update teaching and publications across time.
+* (Xuweiyi) modify this template so it allow json as input to save us time. Due by August 15th.
 
-https://photonlines.github.io/Research-Lab-Website/
+## Acknowledgement
 
-It was built using the libraries provided below:
-
-- [Twitter Bootstrap (v2.3.1)](https://github.com/twbs/bootstrap)
-- [blueimp Gallery (v1.3.0)](https://github.com/blueimp/Gallery)
-
-The stock photos used within the template are from [Unsplash.](https://unsplash.com/). 
-
-The CSS social buttons are from [Nick La.](http://webdesignerwall.com/tutorials/css-social-buttons)
-
-## License
-
-The work is licensed under The MIT License.
+The website is buit upon [this wonderful template](https://github.com/photonlines/Research-Lab-Website).
