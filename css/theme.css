@@ -1,6 +1,6 @@
 body {
 	padding-top: 15px;
-	padding-bottom: 0px;
+	padding-bottom: 100px;
 }
 
 
@@ -8,7 +8,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	max-width: 1000px;
+	/* max-width: 1000px; */
 }
 
 .container>hr {
@@ -39,6 +39,7 @@ body {
 	text-align: center;
 	border-left: 1px solid rgba(255, 255, 255, .75);
 	border-right: 1px solid rgba(0, 0, 0, .1);
+  font-size:16px;
 }
 
 .navbar .nav li:first-child a {
@@ -49,6 +50,11 @@ body {
 .navbar .nav li:last-child a {
 	border-right: 0;
 	border-radius: 0 3px 3px 0;
+}
+
+.news {
+   font-size:20px;
+   margin-bottom:10px;
 }
 
 body>.navbar {
@@ -513,16 +519,17 @@ ul.sponsors {
 
 #footer {
 	z-index: 10;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-bottom: 0px;
-	padding-bottom: 25px;
+	padding-bottom: 0px;
 	border-top-width: 8px;
+  height: 60px;
 	border-top-style: solid;
 	border-top-color: #2F2F2F;
-	background-color: #000000;
+	background-color: #E57200;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: white;
 	vertical-align: baseline;
 	text-align: center;
 }
@@ -541,11 +548,23 @@ ul.sponsors {
 	font-weight: normal;
 }
 
-#footer a img {
-	margin-top: 40px;
+#footer p {
+	font-size: 19px;
+	font-family: BebasNeueRegular;
+	color: black;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #30393C;
+	line-height: 35px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: normal;
 }
 
-#footer p,
+#footer a img {
+	margin-top: 0px;
+}
+
 #footer address {
 	color: #8F8F8F;
 	font-size: 11px;
