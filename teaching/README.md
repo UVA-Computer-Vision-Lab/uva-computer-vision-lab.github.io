@@ -6,3 +6,4 @@
 * homework, projects
 * add announcement
 * how to get some feedback from the students
+* guest lectures
