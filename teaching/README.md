@@ -2,5 +2,7 @@
 
 * index: add address and schedule 
 * logistics: add a lot
-* syllubus: refer to many, add acknowledge, invite some guests
+* syllabus: refer to many, add acknowledge, invite some guests
 * homework, projects
+* add announcement
+* how to get some feedback from the students
