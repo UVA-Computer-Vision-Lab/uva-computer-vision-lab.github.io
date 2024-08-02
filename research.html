@@ -58,32 +58,65 @@
 
 
          <div class="row-fluid">
-            <div class="span3 bs-docs-sidebar" id="navparent">
+           
+            <div class="span2 bs-docs-sidebar" id="navparent">
                <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
                   <li><a href="#"> Research Focus </a></li>
                   <li><a class="subhead" href="#selfsup"> Label-efficient Learning </a></li>
-                  <li><a class="subhead" href="#3d"> Learning for 3D  </a></li>
+                  <li><a class="subhead" href="#3d"> Recon. and Recog. in 3D  </a></li>
                   <li><a class="subhead" href="#cross"> Computer Vision + X </a></li>
                </ul>
             </div>
-            <div class="span8 offset1">
+            <div class="span9 offset1">
 
                <section id="selfsup">
                   <div class="page-header">
                      <h3>Label-efficient Learning</h3>
-                     </p>
+                    <img  src="images/tasks.png" alt="Vision tasks"/>
+                     <p> The cost of collecting human annotations is a significant barrier in many vision tasks.
+                     For example, annotating the landmarks or semantic parts of an object is much more time-consuming than categorizing the image; annotating the 3D pose of an object is often done by reasoning with 3D model's projection to the 2D image; annotating objects with fine-grained labels (e.g. Grasshopper sparrow vs. Lincoln's sparrow) requires strong domain-specific expertise. In addition, labeling without clearly defined protocols leads to a variation in labeling styles of different annotators, which can make subsequent learning harder. </p>
+                    <img  src="images/label-efficient-website.png" alt="Vision tasks"/>
+                    <p> To minimize the annotation cost, one of our research goals is to develop learning algorithms in the context of different vision tasks to reduce the cost of supervision and allow learning from different labeling styles.</p>
+                    <p> <b>[Ongoing projects]</b> Our recent efforts in this direction include developing various label-efficient training algorithms in the context of modern vision tasks, such as vision-language models and open-vocabulary 3D recognition and reconstruction.</p>
                   </div>
                </section>
 
                <section id="3d">
                   <div class="page-header">
-                     <h3>Learning for 3D</h3>
+                     <h3>Reconstruct and Recognize Anything in 3D</h3>
+                    <img  src="images/3d.png" alt="3D"/>
+                    <p>
+                    Understanding object pose and its 3D structure is a central computer vision problem. 
+                    Structure-from-motion (SfM) algorithms are the default solution for this task. 
+                    However, SfM degrades in performance significantly on sparse 2D observations; 
+                    SfM, along with multi-view stereo (MVS), only provides a coarse description of the 3D geometry and texture;
+                    Manipulating 3D shapes requires tremendous human efforts and expertise in 3D software;
+                    Recent breakthroughs in learning neural scene representations (e.g. NeRF) have shown that the long-standing problem of photo-realistic novel view synthesis and detailed 3D reconstruction is attainable.
+                    However, the most limiting assumption in these works is that all images of the scene are accurately localized.  
+                    To address these challenges, our prior research has advanced techniques for unsupervised 3D pose estimation and 3D reconstruction and manipulation. 
+                    </p>
+                    <p> Our research goal in this thrust is to build a system capable of holistic 3D scene understanding and reconstruction. 
+                    We humans have a holistic understanding of the 3D visual world --- we can easily perceive the object categories, their location, and shapes and even interact with them.
+                    This is a fundamental capability required of intelligent agents to navigate and interact with the 3D environment. 
+                    Besides this, reconstructing a realistic and immersive virtual 3D world has many applications in VR/AR, robotics, and autonomous driving. 
+                    </p>
+                    <p>However, such holistic 3D scene understanding and generation are beyond the current state-of-the-art computer vision systems.
+                    There are several critical challenges to address.
+                    First, scene understanding and 3D reconstruction are usually studied separately, which we believe should be integrated in a way that they are mutually beneficial; 
+                    Second, compared to 2D tasks, the lack of human annotations becomes even more problematic for 3D tasks (e.g., 3D object detection and segmentation, 3D pose estimation);
+                    Third, unlike 2D images, 3D models are expensive to acquire, especially for deformable objects such as animals;
+                    We aim to build a system to holistically understand and reconstruct the 3D scene with minimal human supervision. 
+                    <p> <b>[Ongoing projects]</b>  We're developing algorithms to minimize the human annotation cost for open-vocabulary monocular 3D recognition tasks, and we're also building systems for joint semantic and geometry understanding. We are also interested in 3D recontruction and tracking in dynamic scenes.</p>
+                    </p>
                   </div>
                </section>
 
                <section id="cross">
                   <div class="page-header">
                      <h3>Computer Vision + X</h3>
+                    <img  src="images/cv_x.png" alt="3D"/>
+                    <p> We have sucessfully applied computer vision and machine learning techniques in ecology (e.g., analyzing bird migration using 20 years of extensive radar data) and chemistry (e.g., predicting the hydrocarbon adsorption in zeolites)</p>
+                    <p> <b>[Ongoing projects]</b>  We are enthusiastic about building multidisciplinary collaboration and promoting the application of AI across various scientific fields including but not limited to robotics, natual language processing, climate change, and material discovery. Welcome to meet and talk with us about potential cross-field collaboration opportunities!</p>
                   </div>
                </section>
 
