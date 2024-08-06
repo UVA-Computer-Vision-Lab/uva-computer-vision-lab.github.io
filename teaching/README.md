@@ -7,4 +7,5 @@
 * add announcement: piazza, gradescope
 * get some feedback from the students
 * guest lectures
+* office hours
 * Do we need a specific lecture for 3DGS?
