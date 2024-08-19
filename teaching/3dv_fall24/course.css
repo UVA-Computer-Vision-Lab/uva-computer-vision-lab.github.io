@@ -525,14 +525,14 @@ ul.sponsors {
 
 #footer {
 	z-index: 10;
-	margin-top: 0px;
+	margin-top: 50px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	border-top-width: 8px;
   height: 60px;
+  width: 100%;
 	border-top-style: solid;
 	border-top-color: #2F2F2F;
-	background-color: #E57200;
 	border: 0;
 	font-size: 100%;
 	font: white;
@@ -555,16 +555,16 @@ ul.sponsors {
 }
 
 #footer p {
-	font-size: 19px;
+	font-size: 16px;
 	font-family: BebasNeueRegular;
-	color: black;
+	color: gray;
 	border-bottom-width: 0px;
 	border-bottom-style: solid;
 	border-bottom-color: #30393C;
 	line-height: 35px;
 	margin-bottom: 0px;
 	margin-top: 0px;
-	font-weight: normal;
+	font-weight: 300;
 }
 
 #footer a img {
