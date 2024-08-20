@@ -5,7 +5,7 @@ project.html:
     - paper presentation slide template (title, author, motivation, methodology etc), share a google doc, refer to some CVPR oral presentations, or [Georgia's lecture](https://docs.google.com/spreadsheets/d/1TyeekhGqWQhUjdvz3jPoj-NgDZQhp1_I8fCHVlMJE6o/edit?gid=0#gid=0).
     - paper presentation sign-up sheet, refer to [Georgia's lecture](https://docs.google.com/spreadsheets/d/1TyeekhGqWQhUjdvz3jPoj-NgDZQhp1_I8fCHVlMJE6o/edit?gid=0#gid=0)
     - project proposal and final presentation guideline, refer to [Yu Meng's NLP lecture](https://docs.google.com/document/d/1XsQZyOxFHrBDOJhG6W1lfaNhdm_nE50J0gLv4-Yz0jA/edit)
-* add some suggested projects related to 3D computer vision
+* add some suggested projects related to 3D computer vision [Zezhou & Xuweiyi]
 
 
 logistics.html
