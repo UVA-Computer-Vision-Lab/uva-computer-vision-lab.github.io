@@ -30,6 +30,38 @@
          body {
             padding-top: 0px; /* Adjust for the fixed banner */
          }
+         .navbar .nav {
+            display: flex;
+            flex-wrap: wrap; /* Allows items to wrap */
+            padding-left: 0;
+            list-style: none;
+            justify-content: center; /* Centers the navigation bar */
+        }
+
+        .navbar .nav li {
+            flex: 1 1 16%; /* Each navigation item initially takes up 16% width, can adjust */
+            text-align: center;
+            min-width: 120px; /* Sets a minimum width to allow wrapping on smaller screens */
+            border-bottom: 1px solid #ddd; /* Adds a horizontal line below each navigation item */
+        }
+
+        .navbar .nav a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar .nav a:hover {
+            background-color: #f8f9fa;
+            color: #007bff;
+        }
+
+        @media (max-width: 768px) {
+            .navbar .nav li {
+                flex: 1 1 30%; /* Displays two navigation items per row on smaller screens */
+            }
+        }
          </style>
       <!-- Under Construction Ends -->
    </head>
